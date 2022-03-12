@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;variableA.A4_InstanceVaiables.java&apos; to &apos;InstanceVaiables.java&apos;&#x0D;&#x0A;- Original project: &apos;B5_VariableTest&apos;&#x0D;&#x0A;- Original element: &apos;variableA.A4_InstanceVaiables.java&apos;&#x0D;&#x0A;- Renamed element: &apos;variableA.InstanceVaiables.java&apos;" description="Rename compilation unit &apos;A4_InstanceVaiables.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;variableA{A4_InstanceVaiables.java" name="InstanceVaiables.java" references="false" stamp="1640716149468" version="1.0"/>
+</session>

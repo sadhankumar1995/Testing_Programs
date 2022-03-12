@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;throwsTest.A1_Throws.java&apos; to &apos;Throws.java&apos;&#x0D;&#x0A;- Original project: &apos;B2_ExceptionHandling&apos;&#x0D;&#x0A;- Original element: &apos;throwsTest.A1_Throws.java&apos;&#x0D;&#x0A;- Renamed element: &apos;throwsTest.Throws.java&apos;" description="Rename compilation unit &apos;A1_Throws.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;throwsTest{A1_Throws.java" name="Throws.java" references="false" stamp="1640449771089" version="1.0"/>
+</session>

@@ -1,0 +1,22 @@
+package A8_ParallelExecution;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class A24_ParallelExecution {
+
+	WebDriver wd;
+	
+	public void google() throws InterruptedException
+	{
+		wd.get("http://www.google.com");
+		WebElement search=	wd.findElement(By.name("q"));
+		search.sendKeys("chennai");
+		search.submit();
+		Thread.sleep(3000);
+		wd.navigate().back();
+		Thread.sleep(3000);
+		wd.navigate().forward();
+	}
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="opening the django login page">
+  <parameter name = "Browser"  value ="Google">            </parameter>
+  <parameter name = "URL"      value ="https://django.com"></parameter>
+  <parameter name = "USERNAME" value = "abcd">             </parameter>
+  <parameter name = "PASSWORD" value = "1234">             </parameter>
+  
+  <classes>
+  <class name = "A5_Parameter.A19_Parameter">     </class>
+  
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

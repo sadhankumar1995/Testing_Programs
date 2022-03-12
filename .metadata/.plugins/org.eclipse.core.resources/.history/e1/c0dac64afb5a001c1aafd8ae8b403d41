@@ -1,0 +1,10 @@
+package A1_ListTest;
+
+public class A6_ArrayListPartialIndex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
