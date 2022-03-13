@@ -31,10 +31,12 @@ public class A3_ConnectingToOfficeLaptop {
 	    									//URl : Taken from line number 16                                                     
 	    
 	    WebDriver wd = new RemoteWebDriver(new java.net.URL(URL), caps);		// Here we r using remote webDriver from BrowserStack(cloud)
-		   
+		 
+	    
+	    
 		// This "desired capabilities" is communicate between our machine(source code) to cloud.
 	    wd.get("https://djangovinoth.pythonanywhere.com/labhome");
-
+	    
 	    WebElement loginlink = wd.findElement(By.linkText("Login"));
 	    loginlink.click();
 

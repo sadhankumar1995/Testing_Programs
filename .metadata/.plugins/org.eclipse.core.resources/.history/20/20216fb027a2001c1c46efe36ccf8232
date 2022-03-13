@@ -1,0 +1,18 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class ProductPage {
+	
+	public static void enterProduct(WebDriver wd, String productName)
+	{
+		/*WebElement name = wd.findElement(By.name("product"));
+		name.sendKeys(productName);*/
+		
+		wd.findElement(By.name("product")).sendKeys(productName);
+	}
+	
+	
+
+}

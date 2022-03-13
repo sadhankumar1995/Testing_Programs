@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class A19_Parameter {
 																// In in parameters concept we r use (((.XML file for KEY & VALUE))) combination.
 	
-	@Parameters({"Browser","URL","USERNAME","PASSWORD"})
+	@Parameters({"Browser","URL","USERNAME","PASSWORD"})		// Here we r calling Keys. for passing the values.
 	@Test
 	public void login(String browser,String url,String username,String password) // Here we r passing the parameters in same order as given above.
 	{
