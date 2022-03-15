@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test name="chrome browser(failed)">
-    <parameter name="browser" value="CHROME"/>
+<suite thread-count="-1" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
     <classes>
       <class name="A8_ParallelExecution.A24_ParallelExecution">
         <methods>
-          <include name="google" invocation-numbers="0"/>
+          <include name="google"/>
         </methods>
       </class> <!-- A8_ParallelExecution.A24_ParallelExecution -->
     </classes>
-  </test> <!-- chrome browser(failed) -->
-  <test name="firefox browser(failed)">
-    <parameter name="browser" value="FIREFOX"/>
-    <classes>
-      <class name="A8_ParallelExecution.A24_ParallelExecution">
-        <methods>
-          <include name="google" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- A8_ParallelExecution.A24_ParallelExecution -->
-    </classes>
-  </test> <!-- firefox browser(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
