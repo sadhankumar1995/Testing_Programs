@@ -48,8 +48,11 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="G1_BrowserStack"/>
 			<item value="E8_PageObject"/>
+			<item value="F3_CucumberDataTable"/>
+			<item value="F2_ScreenShot"/>
+			<item value="F1_CucumberHooks"/>
+			<item value="G1_BrowserStack"/>
 			<item value="E9_BackGround"/>
 			<item value="E7_WebDriverExecution"/>
 			<item value="E6_Reports"/>
@@ -60,9 +63,6 @@
 			<item value="E1_Scenario"/>
 			<item value="CucumberSample"/>
 			<item value="PageObject2"/>
-			<item value="PageObject"/>
-			<item value="TestNG"/>
-			<item value="D1_WebDriverTest"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
