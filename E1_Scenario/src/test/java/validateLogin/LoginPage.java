@@ -49,7 +49,7 @@ public class LoginPage {
 		System.out.println("---------------------validate the login");
 	}
 	
-	@And("click the login button")					//(( IT WILL NOT THROW AN ERROR )) Here I interchanged order from feature file. This method should come last before.
+	@And("click the login button")					//(( IT WILL NOT THROW AN ERROR )) Here I interchanged order from feature file. This method should come before last.
 	public void clickTheLoginbutton()
 	{
 		System.out.println("---------------------click login button");

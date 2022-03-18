@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="53.173">
+    <testcase classname="verify the product purchase" name="validating the list of product" time="29.174">
+        <system-out>
+            <![CDATA[Given check Browser as "<Browser>"..........................................passed
+When enter the url as "https://djangovinoth.pythonanywhere.com/login/"......passed
+And click the login link....................................................passed
+Then verify login page successfully opened..................................passed
+When enter the username as "sadhan".........................................passed
+Then enter the password as "KAAli@77".......................................passed
+And click the login button..................................................passed
+And click the Framework forms...............................................passed
+And click the simple form...................................................passed
+When add product list.......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="verify the product purchase" name="validating the list of product 2" time="23.62">
+        <system-out>
+            <![CDATA[Given check Browser as "<Browser>"..........................................passed
+When enter the url as "https://djangovinoth.pythonanywhere.com/login/"......passed
+And click the login link....................................................passed
+Then verify login page successfully opened..................................passed
+When enter the username as "sadhan".........................................passed
+Then enter the password as "KAAli@77".......................................passed
+And click the login button..................................................passed
+And click the Framework forms...............................................passed
+And click the simple form...................................................passed
+When add product list.......................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

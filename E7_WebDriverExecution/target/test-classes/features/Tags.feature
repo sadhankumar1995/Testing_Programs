@@ -11,6 +11,6 @@ When enter the url as "https://djangovinoth.pythonanywhere.com/labhome"
 And click the login link
 Then verify login page successfully opened
 When enter the username as "sadhan"
-Then enter the password as "sadhan@12345"
+Then enter the password as "KAAli@77"
 And click the login button
 And validate the homepage loaded successfully

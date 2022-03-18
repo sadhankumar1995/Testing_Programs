@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="29.93">
+    <testcase classname="validate the login feature" name="validate the login feature with valid credential" time="13.167">
+        <system-out>
+            <![CDATA[Given verify network........................................................passed
+And check excel data........................................................passed
+Given check Browser as "chrome".............................................passed
+When enter the url as "https://djangovinoth.pythonanywhere.com/labhome".....passed
+And click the login link....................................................passed
+Then verify login page successfully opened..................................passed
+When enter the username as "sadhan".........................................passed
+Then enter the password as "KAAli@77".......................................passed
+And click the login button..................................................passed
+And validate the homepage loaded successfully...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="validate the login feature" name="validate the login feature with invalid credential" time="16.43">
+        <system-out>
+            <![CDATA[Given verify network........................................................passed
+And check excel data........................................................passed
+Given check Browser as "chrome".............................................passed
+When enter the url as "https://djangovinoth.pythonanywhere.com/labhome".....passed
+And click the login link....................................................passed
+Then verify login page successfully opened..................................passed
+When enter the username as "sadhan".........................................passed
+Then enter the password as "KAAli@77".......................................passed
+And click the login button..................................................passed
+And validate the homepage loaded successfully...............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

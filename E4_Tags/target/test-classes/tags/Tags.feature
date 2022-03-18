@@ -4,8 +4,8 @@ Feature: validate the login feature
 @validLogin @admin
 Scenario: validate the login feature with valid credential
 
-Given check the Browser as "chrome"
-When enter the url as "https://djangovinoth.pythonanywhere.com/labhome" #Remove: as and check
+Given check Browser as "chrome1"
+When enter the url as "https://djangovinoth.pythonanywhere.com/labhome"
 And click the login button
 Then verify login page successfully opened
 When enter the username as "sadhan"
@@ -16,8 +16,8 @@ And validate the homepage loaded successfully
 @validLogin
 Scenario: validate the login feature with invalid credential
 
-Given check the Browser as "chrome"
-When enter the url as "https://djangovinoth.pythonanywhere.com/labhome" #Remove: as and check
+Given check Browser as "chrome2"
+When enter the url as "https://djangovinoth.pythonanywhere.com/labhome"
 And click the login button
 Then verify login page successfully opened
 When enter the username as "sadhan1"
@@ -28,8 +28,8 @@ And validate the homepage loaded successfully
 @invalidusername
 Scenario: validate the login feature with invalid credential
 
-Given check the Browser as "chrome"
-When enter the url as "https://djangovinoth.pythonanywhere.com/labhome" #Remove: as and check
+Given check Browser as "chrome3"
+When enter the url as "https://djangovinoth.pythonanywhere.com/labhome"
 And click the login button
 Then verify login page successfully opened
 When enter the username as "sadhan2"
@@ -40,8 +40,8 @@ And validate the homepage loaded successfully
 @invalidpassword
 Scenario: validate the login feature with invalid credential
 
-Given check the Browser as "chrome"
-When enter the url as "https://djangovinoth.pythonanywhere.com/labhome" #Remove: as and check
+Given check Browser as "chrome4"
+When enter the url as "https://djangovinoth.pythonanywhere.com/labhome"
 And click the login button
 Then verify login page successfully opened
 When enter the username as "sadhan3"
@@ -52,8 +52,8 @@ And validate the homepage loaded successfully
 @invalidusernameandpassword
 Scenario: validate the login feature with invalid credential
 
-Given check the Browser as "chrome"
-When enter the url as "https://djangovinoth.pythonanywhere.com/labhome" #Remove: as and check
+Given check Browser as "chrome5"
+When enter the url as "https://djangovinoth.pythonanywhere.com/labhome"
 And click the login button
 Then verify login page successfully opened
 When enter the username as "sadhan4"

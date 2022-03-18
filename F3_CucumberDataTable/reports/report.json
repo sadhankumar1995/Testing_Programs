@@ -1,0 +1,457 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-18T18:48:33.739Z",
+        "line": 32,
+        "name": "validating the list of product",
+        "description": "",
+        "id": "verify-the-product-purchase;validating-the-list-of-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13728785200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "check Browser as \"\u003cBrowser\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cBrowser\u003e\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.ProductTest.checkBrowserAs(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2652151700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter the url as \"https://djangovinoth.pythonanywhere.com/login/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://djangovinoth.pythonanywhere.com/login/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.ProductTest.enterTheUrlAs(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1090062300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click the login link",
+            "match": {
+              "location": "stepDefinition.ProductTest.clickTheLoginLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1430081800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify login page successfully opened",
+            "match": {
+              "location": "stepDefinition.ProductTest.verifyLoginPageSuccessfullyOpened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79004600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enter the username as \"sadhan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sadhan\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinition.ProductTest.enterTheUserNameAs(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109006200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "enter the password as \"KAAli@77\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"KAAli@77\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinition.ProductTest.enterThePasswordAs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1752100200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click the login button",
+            "match": {
+              "location": "stepDefinition.ProductTest.clickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 585033400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click the Framework forms",
+            "match": {
+              "location": "stepDefinition.ProductTest.clickTheFrameWorkForms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 972055600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click the simple form",
+            "match": {
+              "location": "stepDefinition.ProductTest.clickTheSimpleForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6616378400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "add product list",
+            "match": {
+              "location": "stepDefinition.ProductTest.addProductList(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname",
+                  "mobile",
+                  "email",
+                  "productcategory",
+                  "quantity",
+                  "purchaser"
+                ]
+              },
+              {
+                "cells": [
+                  "product a",
+                  "111111",
+                  "1@gmail.com",
+                  "Electrical",
+                  "5",
+                  "person a"
+                ]
+              },
+              {
+                "cells": [
+                  "product b",
+                  "222222",
+                  "2@gmail.com",
+                  "Electrical",
+                  "10",
+                  "person b"
+                ]
+              },
+              {
+                "cells": [
+                  "product c",
+                  "333333",
+                  "3@gmail.com",
+                  "Electrical",
+                  "15",
+                  "person c"
+                ]
+              },
+              {
+                "cells": [
+                  "product d",
+                  "444444",
+                  "4@gmail.com",
+                  "Electrical",
+                  "20",
+                  "person d"
+                ]
+              },
+              {
+                "cells": [
+                  "product e",
+                  "555555",
+                  "5@gmail.com",
+                  "Electrical",
+                  "25",
+                  "person e"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@product"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-18T18:49:02.986Z",
+        "line": 33,
+        "name": "validating the list of product",
+        "description": "",
+        "id": "verify-the-product-purchase;validating-the-list-of-product;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10196583300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "check Browser as \"\u003cBrowser\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cBrowser\u003e\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.ProductTest.checkBrowserAs(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2847162900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter the url as \"https://djangovinoth.pythonanywhere.com/login/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://djangovinoth.pythonanywhere.com/login/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.ProductTest.enterTheUrlAs(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 779044600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click the login link",
+            "match": {
+              "location": "stepDefinition.ProductTest.clickTheLoginLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62003600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify login page successfully opened",
+            "match": {
+              "location": "stepDefinition.ProductTest.verifyLoginPageSuccessfullyOpened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71004100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enter the username as \"sadhan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sadhan\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinition.ProductTest.enterTheUserNameAs(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101005700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "enter the password as \"KAAli@77\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"KAAli@77\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinition.ProductTest.enterThePasswordAs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1951111600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click the login button",
+            "match": {
+              "location": "stepDefinition.ProductTest.clickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 472027000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click the Framework forms",
+            "match": {
+              "location": "stepDefinition.ProductTest.clickTheFrameWorkForms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 804046000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click the simple form",
+            "match": {
+              "location": "stepDefinition.ProductTest.clickTheSimpleForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6323361600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "add product list",
+            "match": {
+              "location": "stepDefinition.ProductTest.addProductList(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname",
+                  "mobile",
+                  "email",
+                  "productcategory",
+                  "quantity",
+                  "purchaser"
+                ]
+              },
+              {
+                "cells": [
+                  "product a",
+                  "111111",
+                  "1@gmail.com",
+                  "Electrical",
+                  "5",
+                  "person a"
+                ]
+              },
+              {
+                "cells": [
+                  "product b",
+                  "222222",
+                  "2@gmail.com",
+                  "Electrical",
+                  "10",
+                  "person b"
+                ]
+              },
+              {
+                "cells": [
+                  "product c",
+                  "333333",
+                  "3@gmail.com",
+                  "Electrical",
+                  "15",
+                  "person c"
+                ]
+              },
+              {
+                "cells": [
+                  "product d",
+                  "444444",
+                  "4@gmail.com",
+                  "Electrical",
+                  "20",
+                  "person d"
+                ]
+              },
+              {
+                "cells": [
+                  "product e",
+                  "555555",
+                  "5@gmail.com",
+                  "Electrical",
+                  "25",
+                  "person e"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@product"
+          }
+        ]
+      }
+    ],
+    "name": "verify the product purchase",
+    "description": "",
+    "id": "verify-the-product-purchase",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/product.feature",
+    "tags": []
+  }
+]
