@@ -17,7 +17,7 @@ public class A25_CheckBox {
 		WebDriver wd = new ChromeDriver();
 		wd.manage().window().maximize();
 		
-		wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);  // -------> instead of "Thread.sleep". here we r using "Implicitly Wait"
+		wd.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);  // -------> instead of "Thread.sleep". here we r using "Implicitly Wait"
 																	 // -------> here major advantage is "It will not wait for compulsary" and for brief refer notes*
 		wd.get("https://djangovinoth.pythonanywhere.com/labhome");
 		

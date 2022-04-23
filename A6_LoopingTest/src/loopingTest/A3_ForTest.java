@@ -8,7 +8,7 @@ public class A3_ForTest {
 		{
 			for(int j=0;j<5;j++)
 			{
-				System.out.print(0+"."+j+" ");
+				System.out.print(i+"..."+j+"   ");
 			}
 			System.out.println();
 		}

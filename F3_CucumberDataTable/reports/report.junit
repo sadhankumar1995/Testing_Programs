@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="53.173">
-    <testcase classname="verify the product purchase" name="validating the list of product" time="29.174">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="51.151">
+    <testcase classname="verify the product purchase" name="validating the list of product" time="25.949">
         <system-out>
             <![CDATA[Given check Browser as "<Browser>"..........................................passed
 When enter the url as "https://djangovinoth.pythonanywhere.com/login/"......passed
@@ -15,7 +15,7 @@ When add product list.......................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="verify the product purchase" name="validating the list of product 2" time="23.62">
+    <testcase classname="verify the product purchase" name="validating the list of product 2" time="24.843">
         <system-out>
             <![CDATA[Given check Browser as "<Browser>"..........................................passed
 When enter the url as "https://djangovinoth.pythonanywhere.com/login/"......passed

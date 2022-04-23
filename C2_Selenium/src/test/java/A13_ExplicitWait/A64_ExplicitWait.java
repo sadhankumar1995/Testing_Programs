@@ -17,7 +17,7 @@ public class A64_ExplicitWait {
 	
 		WebDriverManager.chromedriver().setup();
 		WebDriver wd= new ChromeDriver();
-		//wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//wd.manage().timeouts().implicitlyWait(5, TimeUnit.NANOSECONDS);
 		wd.manage().window().maximize();
 		
 		wd.get("https://djangovinoth.pythonanywhere.com/labhome");
@@ -31,7 +31,7 @@ public class A64_ExplicitWait {
 		password.submit();
 		wd.get("https://djangovinoth.pythonanywhere.com/labhome/");
 		
-		WebDriverWait wait = new WebDriverWait(wd, 10);										// Here ExplicitWait we need to Add inside before the specific code. Moreover, it is also work like a implicit wait.
+		WebDriverWait wait = new WebDriverWait(wd, 3);										// Here ExplicitWait we need to Add inside before the specific code. Moreover, it is also work like a implicit wait.
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("element1")));		// Actually here, it is wait for loading the WebElement.
 		
 		WebElement elementSet1=	wd.findElement(By.id("element1"));

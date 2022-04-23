@@ -21,7 +21,7 @@ public class A17_FailedonlyScreenShot {
 
 	public WebDriver wd;
 	
-	@Test(priority = 2)
+	@Test(priority = 1)
 	public void google()
 	{
 		WebDriverManager.chromedriver().setup();
@@ -36,7 +36,7 @@ public class A17_FailedonlyScreenShot {
 		search.submit();
 	}
 		
-	@Test(priority = 1)
+	@Test(priority = 2)
 	public void bing()
 	{
 			WebDriverManager.chromedriver().setup();

@@ -3,7 +3,7 @@
     "line": 4,
     "elements": [
       {
-        "start_timestamp": "2022-03-16T13:52:56.941Z",
+        "start_timestamp": "2022-04-15T14:52:18.891Z",
         "line": 7,
         "name": "validate the login feature with valid credential",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4000200,
+              "duration": 4000300,
               "status": "passed"
             },
             "line": 9,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 1000100,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 10,
@@ -49,7 +49,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 11,
@@ -89,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 1000100,
               "status": "passed"
             },
             "line": 14,
@@ -107,6 +106,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 15,
@@ -118,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 1000100,
               "status": "passed"
             },
             "line": 16,

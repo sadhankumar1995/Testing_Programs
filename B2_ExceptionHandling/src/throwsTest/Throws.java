@@ -10,14 +10,14 @@ import java.util.Properties;
 
 public class Throws {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException   {
 		getsheet();
 	}
-	public static void getsheet() throws IOException
+	public static void getsheet() throws IOException 
 	{
 		createExcel();
 	}
-	public static void createExcel() throws IOException
+	public static void createExcel() throws IOException 
 	{
 		File f= new File("");
 		FileInputStream fis = new FileInputStream(f);

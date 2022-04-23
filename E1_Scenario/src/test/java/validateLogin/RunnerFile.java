@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(tags = "@validLogin", dryRun = false, monochrome = true)
+@CucumberOptions(tags = "@validLogin", monochrome = true, dryRun = false)
 
 public class RunnerFile {
 	

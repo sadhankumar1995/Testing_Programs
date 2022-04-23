@@ -9,10 +9,12 @@ public class A3_StaticOrClassLevel {
 		
 		int k=i+j;
 		System.out.println(k);
+		add();
 	}
 	public static void add()
 	{
 		int k=i+j;
+		System.out.println(k);
 	}
 
 }

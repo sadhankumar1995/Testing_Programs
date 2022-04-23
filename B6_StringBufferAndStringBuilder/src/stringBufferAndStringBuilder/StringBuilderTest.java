@@ -7,7 +7,7 @@ public class StringBuilderTest {
 		a.concat("technologies");
 		System.out.println(a);
 		
-		StringBuilder sb= new StringBuilder("vcentry");
+		StringBuilder sb= new StringBuilder(a);
 		sb.append("technologies");
 		System.out.println(sb);
 		

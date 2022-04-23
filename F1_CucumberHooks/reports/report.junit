@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="29.93">
-    <testcase classname="validate the login feature" name="validate the login feature with valid credential" time="13.167">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="53.206">
+    <testcase classname="validate the login feature" name="validate the login feature with valid credential" time="29.037">
         <system-out>
             <![CDATA[Given verify network........................................................passed
 And check excel data........................................................passed
@@ -15,7 +15,7 @@ And validate the homepage loaded successfully...............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="validate the login feature" name="validate the login feature with invalid credential" time="16.43">
+    <testcase classname="validate the login feature" name="validate the login feature with invalid credential" time="23.833">
         <system-out>
             <![CDATA[Given verify network........................................................passed
 And check excel data........................................................passed

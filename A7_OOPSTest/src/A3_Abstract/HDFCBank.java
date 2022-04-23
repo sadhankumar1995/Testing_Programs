@@ -4,7 +4,7 @@ public class HDFCBank extends RBIBank {
 
 	public static void main(String[] args) {
 		mobileBanking();
-		//loan();
+		loan();
 
 	}
 

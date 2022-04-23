@@ -13,7 +13,7 @@ public class A1_ArrayListAdd {
 		a.add("vcentry3");
 		a.add("vcentry4");
 		
-		
+		System.out.println(a);
 		
 	}
 

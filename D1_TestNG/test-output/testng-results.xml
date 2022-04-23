@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-14T08:00:08Z" name="Suite" finished-at="2022-03-14T08:00:08Z" duration-ms="53">
+  <suite started-at="2022-04-04T19:04:46Z" name="Default suite" finished-at="2022-04-04T19:04:46Z" duration-ms="39">
     <groups>
     </groups>
-    <test started-at="2022-03-14T08:00:08Z" name="opening the django login page" finished-at="2022-03-14T08:00:08Z" duration-ms="53">
-      <class name="A5_Parameter.A19_Parameter">
-        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:A5_Parameter.A19_Parameter@33c911a1]" started-at="2022-03-14T13:30:08Z" name="login" finished-at="2022-03-14T13:30:08Z" duration-ms="13" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Google]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://django.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[abcd]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2022-04-04T19:04:46Z" name="Default test" finished-at="2022-04-04T19:04:46Z" duration-ms="39">
+      <class name="A8_ParallelExecution.A24_ParallelExecution">
+        <test-method signature="google(java.lang.String)[pri:0, instance:A8_ParallelExecution.A24_ParallelExecution@6a2f6f80]" started-at="2022-04-05T00:34:46Z" name="google" finished-at="2022-04-05T00:34:46Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[Parameter 'browser' is required by @Test on method google but has not been marked @Optional or definedin C:\Users\admin\AppData\Local\Temp\testng-eclipse-464405579\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: Parameter 'browser' is required by @Test on method google but has not been marked @Optional or definedin C:\Users\admin\AppData\Local\Temp\testng-eclipse-464405579\testng-customsuite.xmlat org.testng.internal.Parameters.createParams(Parameters.java:290)at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)at org.testng.internal.Parameters.createParameters(Parameters.java:620)at org.testng.internal.Parameters.handleParameters(Parameters.java:769)at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:914)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- A5_Parameter.A19_Parameter -->
-    </test> <!-- opening the django login page -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- google -->
+      </class> <!-- A8_ParallelExecution.A24_ParallelExecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

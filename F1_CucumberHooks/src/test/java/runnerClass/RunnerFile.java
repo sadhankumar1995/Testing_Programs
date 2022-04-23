@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {"src\\test\\resources\\features"}, glue = {"stepDefinition"}, tags = "@validLogin",
-				plugin = {"pretty",
+				plugin = {
 						"html:reports/report.html",
 						"junit:reports/report.junit",
 						"json:reports/report.json"})

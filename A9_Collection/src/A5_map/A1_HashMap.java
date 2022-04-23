@@ -14,8 +14,8 @@ public class A1_HashMap {
 		table.put("password", "1234");
 		table.put("domain", "testing");
 		table.put("company", "vcentry");
-		table.put("mobile", null);
-		table.put(null, "guindy");
+		table.put("mobile", null);  
+		table.put(null, "guindy"); 
 		table.put(null, "1600 x 720 Pixels");
 		
 	Iterator it=	table.keySet().iterator();

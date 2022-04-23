@@ -114,7 +114,7 @@ public class ProductTest {
 		
 		for(int i=0; i<table.size(); i++)
 		{
-			System.out.println(table.get(i).get("pass the Key"));
+			System.out.println(table.get(i).get("productname"));
 			
 			wd.findElement(By.id("id0")).sendKeys(table.get(i).get("productname"));		// we r passing Key --> productname 	to get value of that column.
 			wd.findElement(By.id("id1")).sendKeys(table.get(i).get("mobile"));			// we r passing Key --> mobile 			to get value of that column.

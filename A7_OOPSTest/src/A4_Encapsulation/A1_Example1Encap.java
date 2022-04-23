@@ -29,7 +29,4 @@ public class A1_Example1Encap {
 	}
 	
 	
-	
-	
-	
 }

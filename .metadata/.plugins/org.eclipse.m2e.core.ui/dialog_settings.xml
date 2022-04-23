@@ -48,6 +48,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="H1_DDD"/>
 			<item value="E8_PageObject"/>
 			<item value="F3_CucumberDataTable"/>
 			<item value="F2_ScreenShot"/>
@@ -62,7 +63,6 @@
 			<item value="E2_ScenarioWithData"/>
 			<item value="E1_Scenario"/>
 			<item value="CucumberSample"/>
-			<item value="PageObject2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

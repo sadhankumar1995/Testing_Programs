@@ -3,7 +3,7 @@ package returnTypeTest;
 public class ReturnTypeTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		add();
 		sub();
 		int result=add()+sub();

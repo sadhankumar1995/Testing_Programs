@@ -14,7 +14,7 @@ public class Precondition {						// we should create class in this name only in 
 	}
 	
 	@And("check excel data")
-	public void checkExcwlData()
+	public void checkExcelData()
 	{
 		System.out.println("Excel data");
 	}

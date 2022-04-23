@@ -7,10 +7,10 @@ public class A5_PushAndPop {
 
 	public static void main(String[] args) {
 		LinkedList l= new LinkedList();
-		l.add("d");
+		l.add("a");
 		l.add("b");
 		l.add("c");
-		l.add("a");
+		l.add("d");
 		
 		System.out.println(l.pop());
 		l.push("aaa");

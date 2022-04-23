@@ -9,11 +9,13 @@ public class A2_GlobalVariable {
 		
 		int k=i+j;
 		System.out.println(k);
+		add();
 
 	}
 	public static void add()
 	{
 		int k=i+j;
+		System.out.println(k);
 	}
 
 }

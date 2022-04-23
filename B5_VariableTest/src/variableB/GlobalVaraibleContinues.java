@@ -7,6 +7,7 @@ public class GlobalVaraibleContinues extends A2_GlobalVariable{
 	public static void main(String[] args) {
 		
 		int k=i+j;
+		System.out.println(k);
 	}
 
 }

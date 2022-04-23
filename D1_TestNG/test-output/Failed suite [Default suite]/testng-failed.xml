@@ -3,12 +3,11 @@
 <suite thread-count="-1" name="Failed suite [Failed suite [Default suite]]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)(failed)">
     <classes>
-      <class name="A4_FailureScreenShot.A18_RunOnlyFailedTest">
+      <class name="A3_Assertion.A14_HardAssert">
         <methods>
-          <include name="sub"/>
-          <include name="mul"/>
+          <include name="Title"/>
         </methods>
-      </class> <!-- A4_FailureScreenShot.A18_RunOnlyFailedTest -->
+      </class> <!-- A3_Assertion.A14_HardAssert -->
     </classes>
   </test> <!-- Default test(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Default suite]] -->

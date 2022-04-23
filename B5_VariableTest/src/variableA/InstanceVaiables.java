@@ -9,11 +9,14 @@ public class InstanceVaiables {
 		InstanceVaiables a= new InstanceVaiables();
 		int k=a.i+a.j;
 		System.out.println(k);
+		
+		add();
 	}
 	public static void add()
 
 	{
 		InstanceVaiables a= new InstanceVaiables();
 		int k=a.i+a.j;
+		System.out.println(k);
 	}
 }

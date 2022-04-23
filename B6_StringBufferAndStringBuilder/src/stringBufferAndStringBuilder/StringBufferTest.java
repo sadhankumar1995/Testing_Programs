@@ -8,7 +8,7 @@ public class StringBufferTest {
 		a.concat("technologies");
 		System.out.println(a);
 		
-		StringBuffer sb= new StringBuffer("vcentry");
+		StringBuffer sb= new StringBuffer(a);
 		sb.append("technologies");
 		System.out.println(sb);
 		

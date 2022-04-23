@@ -13,7 +13,7 @@ public class A2_Priority {
 		System.out.println("add");
 	}
 	
-	@Test(priority=2)
+	@Test(priority=0)
 	public void sub()
 	{
 		System.out.println("sub");

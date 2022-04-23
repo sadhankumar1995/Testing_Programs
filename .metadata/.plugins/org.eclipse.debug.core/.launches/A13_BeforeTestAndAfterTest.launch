@@ -13,7 +13,7 @@
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="D1_TestNG"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
     <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
-        <mapEntry key="A2_Annotation.A13_BeforeTestAndAfterTest" value="systemOn;closeNetwork;closeBrwoser;login;systemOff;search;book;browser;startNetwork;cancel"/>
+        <mapEntry key="A2_Annotation.A13_BeforeTestAndAfterTest" value="search;book;browser;systemOn;cancel;startNetwork;closeBrwoser;closeNetwork;login;systemOff"/>
     </mapAttribute>
     <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
         <listEntry value="A2_Annotation.A13_BeforeTestAndAfterTest"/>

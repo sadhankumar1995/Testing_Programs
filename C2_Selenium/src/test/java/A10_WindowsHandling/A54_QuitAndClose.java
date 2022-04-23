@@ -23,6 +23,7 @@ public class A54_QuitAndClose {
 		String child1 =	it.next();
 		String child2 =	it.next();
 		
+		
 		System.out.println(wd.getTitle());
 		System.out.println(wd.getCurrentUrl());
 		Thread.sleep(2000);
@@ -38,7 +39,7 @@ public class A54_QuitAndClose {
 		Thread.sleep(2000);
 		
 
-		wd.quit(); // it will all the window after completing the execution.
+		wd.quit(); // it will close all the window after completing the execution.
 		//wd.close(); // it will close only the current window which we accessing.
 	}
 	}

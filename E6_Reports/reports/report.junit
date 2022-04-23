@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.548">
-    <testcase classname="validate the login feature" name="validate the login feature with valid credential" time="0.214">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.442">
+    <testcase classname="validate the login feature" name="validate the login feature with valid credential" time="0.178">
         <system-out>
             <![CDATA[Given check Browser as "chrome1"............................................passed
 When enter the url as "https://djangovinoth.pythonanywhere.com/labhome".....passed
